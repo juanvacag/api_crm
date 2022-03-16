@@ -1,0 +1,24 @@
+Que es una REST API
+REST = Representational State Transfer
+API = Aplication Programming Interface ó Interfaz de Programacion de Aplicaciones.
+
+una API puede ser diseñada en cualquier lenguaje, tiene la caracteristica de que debe de responder a los Request HTTP: GET, POST, PUT, PATCH, DELETE
+
+GET: Obtener datos
+POST: Enviar datos al servidor / Creación
+PUT/PATCH: Actualizar (recomendado PUT)
+DELETE: Eliminar
+
+Una REST API cuenta con Endpoints (urls) para hacer operaciones CRUD (create-read-update-delete / crear-leer-actualizar-borrar)
+    º listar todos los clientes debera de ser GET /clientes
+    º obtener un solo cliente debera de ser GET  /clientes/id
+    º crear un nuevo cliente debera de ser POST /clientes
+    º editar un cliente debera de ser PUT /clientes/id
+    º eliminar un cliente debera de ser DELETE /clientes/id
+
+    INSTALACION DE JSON-SERVER
+    desde la consola, abrir como administrador: 
+    npm install -g json-server
+
+    HECHAR A CORRER EL SERVIDOR
+    json-server --watch db.json --port 4000

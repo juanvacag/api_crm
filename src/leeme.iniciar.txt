@@ -1,0 +1,7 @@
+abrir una terminal y teclear:
+
+json-server --watch db.json --port 4000
+
+abrir otra terminal y teclear:
+
+npm run dev

@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "juan",
+      "empresa": "mi empresa",
+      "email": "correo@correo.com",
+      "telefono": "123456789",
+      "notas": "recomendado por un cliente preferente",
+      "id": 1
+    },
+    {
+      "nombre": "paulina",
+      "empresa": "Paulina design",
+      "email": "paulina@paulina.com",
+      "telefono": "142536789",
+      "notas": "recomendado por juan",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+*¿Cuando utilizar una libreria de formularios?
+-Si tu proyecto contará con formularios muy grandes, complejos ó multiples formularios; una libreria solucionaria muchos problemas.
+-Algunas librerias cuentan con validaciones muy robustas y otras se integran bien con alguna dependencia de validación.
+
+*Opciones de librerias de formularios
+-Formik e utiliza Yup como herramienta de validación.
+-React Hook From y tiene validacones propias.
+
+En este proyecto utilizaremos Formik y Yup
+
+desde una teminal desde la carpeta principal del programa: npm i formik yup
+importar en el Formulario.jsx : import {Formik, Form, Field} from 'formik'
+
+Formik es la libreria
+Form equivale a la etiqueta form
+Field son los campos del formulario
